@@ -1,0 +1,16 @@
+.projets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-projet {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.item-projet h3 {
+    color: #004080;
+}

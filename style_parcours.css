@@ -1,0 +1,14 @@
+.parcours {
+    justify-items: center;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
