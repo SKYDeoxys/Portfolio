@@ -1,0 +1,48 @@
+.introduction {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.introduction img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #004080;
+}
+
+.introduction p {
+    max-width: 400px;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    border: 1px solid #ccc;
+    width: 350px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+figure img, figure video, figure audio {
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+}
+
+figcaption {
+    text-align: center;
+    background: #fafafa;
+    padding: 8px;
+}
+
+section h2 {
+    text-align: center;
+}
